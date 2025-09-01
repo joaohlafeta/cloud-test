@@ -4,7 +4,7 @@ const app = express();
 
 // opcional: rota raiz
 app.get("/", (_req, res) => {
-  res.type("text/plain").send("OK");
+  res.type("text/plain").send("Status:200, Hello API");
 });
 
 // sua API
